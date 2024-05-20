@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/signup.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="nav">
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index/index.html">Home</a></li>
+                <li><a href="../index/restaurants.html">Restaurants</a></li>
+                <li><a href="../index/about.html">About</a></li>
+                <li><a href="../index/signin.html">Signin</a></li>
+                <li><a href="../index/signup.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="sec1">
+        <h1 class="head">
+            Experience the <br>
+            Best Taste<br>in your City
+        </h1>
+    </div>
+    <div style="text-align: right">
+        <input type="button" value="logout" class="btn" onclick="logout()" id="logo">
+    </div>
+    <div class="form">
+        <div class="wrapper">
+            <h1>Sign Up</h1>
+            <form onsubmit="signup(event)">
+                <div>
+                    <input type="text" name="fullname" placeholder="Full Name" id="fullname">
+                </div>
+                <div>
+                    <input type="text" name="contact" placeholder="Contact" id="contact">
+                </div>
+                <div>
+                    <input type="text" name="address" placeholder="Address" id="address">
+                </div>
+                <div>
+                    <input type="text" name="email" placeholder="Email" id="email">
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Password" id="password">
+                </div>
+                <div>
+                    <input type="password" name="copassword" placeholder="Confirm Password" id="copassword">
+                </div>
+                <div>
+                    <button type="submit" id="signupinp" class="btn">Sign Up</button>
+                    <div class="member">
+                        Already A Member? <a href="../index/signup.html">Login Here!</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="main">
+            <ul id="parent"></ul>
+        </div>
+    </div>
+    <script type="module" src="../script/signin.js"></script>
+</body>
+</html>

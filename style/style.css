@@ -1,0 +1,282 @@
+
+*{
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 600px){
+  
+}
+.nav{
+    display: flex;
+    height: 90px;
+    background-color: rgb(3, 3, 72);
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration:none ;
+    color: whitesmoke;
+}
+nav ul li a:hover{
+    color: wheat;
+}
+.sec1{
+    height: 700px;
+    width: 100%;
+    background-image: url("../assests/bbq.avif");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.head{
+    height: 400px;
+    width: 600px;
+    float: left;
+    margin-right: 40px;
+    color: rgb(223, 223, 244);
+    padding-top: 150px;
+    font-size: 70px;
+    padding-left: 100px;
+}
+.box{
+    height: 300px;
+    width: 100%;
+    display: flex;
+  justify-content: space-around;
+}
+
+.box1{
+    height: 300px;
+    width: 400px;
+    background-image: url("../assests/foodie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+   margin-top: 90px;
+   margin-right: 50px;
+}
+.box2{
+    height: 300px;
+    width: 400px;
+    background-image: url("../assests/rice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    margin-top: 90px;
+    margin-right: 50px;
+}
+.box3{
+    height: 300px;
+    width: 400px;
+background-image: url("../assests/fast\ food.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    margin-top: 90px;
+    margin-right: 50px;
+}
+.head1{
+    text-align: center;
+}
+.para{
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+.para p{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: monospace;
+}
+.slider {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #fff;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+.cards{
+ height: 600px;
+ width: 100%;
+}
+.topcard{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.card1{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.card2{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 40px;
+}
+.card3{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 60px;
+}
+.card4{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 80px;
+}
+.bottom_card{
+    height: 300px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+}
+.card5{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.card6{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 40px;
+}
+.card7{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin-left: 60px;
+}
+.card8{
+    height: 300px;
+    width: 300px;
+ background-color: aliceblue;
+    margin-left: 80px;
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: navy;
+}
+.footerbanner{
+    height: 300px;
+    width: 900px;
+    display: flex;
+}
+.footerbanner ul{
+    list-style-type: none;
+}
+.link{
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.link1{
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.link2{
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.input{
+    height: 90px;
+    width: 400px;
+    margin-top: 90px;
+}
+#inp{
+    height: 30px;
+    width: 320px;
+    margin-top: 20px;
+   border-radius: 4px;
+}
+.btn{
+    height: 30px;
+    border-radius: 40px solid black;
+color: white;
+background-color: chocolate;
+}
+.btn:hover{
+    background-color: rgb(6, 6, 69);
+}
+.btn1{
+    height: 30px;
+    border-radius: 40px solid black;
+color: white;
+background-color:navy;  
+}
+.btn1:hover{
+    background-color: chocolate;
+}
+.video{
+    height: 500px;
+    width: 100%;
+}
+.vid{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 500px;
+
+}
+

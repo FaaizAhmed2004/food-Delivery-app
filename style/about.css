@@ -1,0 +1,117 @@
+.nav{
+    display: flex;
+    height: 90px;
+    background-color: rgb(3, 3, 72);
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration:none ;
+    color: whitesmoke;
+}
+nav ul li a:hover{
+    color: wheat;
+}
+.sec1{
+    height: 700px;
+    width: 100%;
+    background-image: url("../assests/biryani.avif");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.head{
+    height: 400px;
+    width: 600px;
+    float: left;
+    margin-right: 40px;
+    color: rgb(223, 223, 244);
+    padding-top: 150px;
+    font-size: 70px;
+    padding-left: 100px;
+}
+.about{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(180, 180, 255);
+    margin-top: 100px;
+}
+.left{
+    height: 500px;
+    width: 50%;
+   background-color: rgb(21, 21, 93);
+    float: left;
+}
+.right{
+height: 500px;
+width: 50%;
+background-color: rgb(229, 96, 96);
+float: right;
+}
+.img{
+    float: right;
+  display: flex;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: navy;
+    display: flex;
+    color: white;
+}
+.footerbanner{
+    height: 300px;
+    width: 900px;
+    display: flex;
+}
+.footerbanner ul{
+    list-style-type: none;
+}
+.link{
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.link1{
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.link2{
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.input{
+    height: 90px;
+    width: 400px;
+    margin-top: 90px;
+}
+#inp{
+    height: 30px;
+    width: 320px;
+    margin-top: 20px;
+   border-radius: 4px;
+}
+.btn{
+    height: 30px;
+    border-radius: 40px solid black;
+color: white;
+background-color: chocolate;
+}
+.btn:hover{
+    background-color: rgb(6, 6, 69);
+}
